@@ -19,7 +19,7 @@
         </div>
         <div class="col-md-6 column">
             <form class="form-inline" action="/book/queryBookByName" method="post" style="float: right">
-                <input type="text" name="bookName" class="form-control" placeholder="请输入要查询的书籍名称">
+                <input type="text" name="bookName" class="form-control" placeholder="请输入要查询的书籍名称" required="">
                 <input type="submit" class="btn btn btn-info" value="查询">
             </form>
         </div>
