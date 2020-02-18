@@ -18,7 +18,7 @@
         </div>
         <div class="form-group">
             <label>书籍数量</label>
-            <input type="text" id="count" name="bookCount" class="form-control" required>
+            <input type="number" id="count" name="bookCount" class="form-control" required>
 <%--            <script>--%>
 <%--                var bookCount = $("#count").val();--%>
 <%--                var reg = "/^[1-9]\\d*$/";--%>
